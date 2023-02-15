@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="entity.Pets">
+        <table name="pets" schema="animals" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="-1"/>
+            </id>
+            <basic name="typePet">
+                <column name="typePet" length="20"/>
+            </basic>
+            <basic name="name">
+                <column name="name" length="20"/>
+            </basic>
+            <basic name="age">
+                <column name="age" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="color">
+                <column name="color" length="20"/>
+            </basic>
+            <basic name="ownerStatus">
+                <column name="ownerStatus" precision="1"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

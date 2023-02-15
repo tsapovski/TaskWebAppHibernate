@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-source-infos>
+      <data-source-info id="156e11b6-2410-486c-b3ee-3ee45e94d6f2" persistence-unit-name="Pets" />
+    </data-source-infos>
+  </component>
+</project>
